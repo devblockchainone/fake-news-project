@@ -1,0 +1,10 @@
+.Content {
+    display: flex;
+    height: 130vh;
+    flex-grow: 1;
+    background-color: #EFF3F9
+}
+
+.font-link {
+    font-family: 'Inter', sans-serif;
+}

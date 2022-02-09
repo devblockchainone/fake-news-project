@@ -1,0 +1,149 @@
+body {
+    background-color: var(--colorWhite);
+    background-image: url('../images/background.png');
+}
+
+@font-face {
+    font-family: 'Nanotech';
+    src: local('nanotechRegular') url('../fonts/NanTechRegular.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --colorBlack: #000000;
+    --colorWhite: #FFFFFF;
+    --colorWhiteOpacity: rgba(255, 255, 255, 0.1);
+    --colorGray900: #18191F;
+    --colorGray800: #474A57;
+    --colorGray700: #969BAB;
+    --colorGray300: #D9DBE1;
+    --colorGray200: #EEEFF4;
+    --colorGray100: #F4F5F7;
+    --colorPurple1000: #00255B;
+    --colorPurple900: #1C1C68;
+    --colorPurple800: #242380;
+    --colorPurple700: #282795;
+    --colorPurple500: #3635A2;
+    --colorPurple400: #5463C5;
+    --colorPurple300: #A1ADED;
+    --colorBlue800: #469CFE;
+    --colorBlue500: #00E3FF;
+    --colorBlue300: #68CDE7;
+    --colorPink700: #FF0AA0;
+    --colorPink500: rgba(255, 10, 160, 0.5);
+    --colorPink300: #F5ADD2;
+    --font-size-title72: 4.5rem;
+    --font-size-title48: 3rem;
+    --font-size-title40: 2.5rem;
+    --font-size-title28: 1.75rem;
+    --font-size-title24: 1.5rem;
+    --font-size-title20: 1.25rem;
+    --font-size-title18: 1.125rem;
+    --font-size-title16: 1rem;
+    --font-size-title14: 0.875rem;
+    --font-size-title12: 0.75rem;
+}
+
+
+/* BUILNDING */
+.MenuLanding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: var(--colorBlack);
+}
+
+.imgLogo {
+    width: 100%;
+    height: 65px;
+}
+
+.MenuRightSide {
+    display: flex;
+    flex-direction: row;
+}
+
+.SpaceIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorWhiteOpacity);
+    width: 32px;
+    height: 32px;
+    margin: 0 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.IconSocialMedia {
+    color: var(--colorWhite);
+    height: 1.2em;
+    vertical-align: -0.225em;
+}
+
+
+.backgroundBuilding {
+    background: url('../images/DarkBlob.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 918px;
+    background-position-x: -80px;
+    background-position-y: -15px;
+    background-size: contain;
+}
+
+.contentBackground {
+    max-width: 483px;
+    padding-top: 50px;
+    margin-left: 700px;
+}
+
+.imgCogs {
+    width: 265px;
+    height: 265px;
+}
+
+.titleBuilding {
+    font-family: 'Nanotech', sans-serif;
+    font-size: var(--font-size-title72);
+    font-weight: 400;
+    color: var(--colorWhite);
+    margin-bottom: 25px;
+}
+
+.descriptionBuilding {
+    font-family: 'Nanotech', sans-serif;
+    font-size: var(--font-size-title18);
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.043em;
+    color: var(--colorWhite);
+}
+
+
+/* LANDING */
+
+.MenuPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0px;
+    background-color: var(--colorPurple900);
+}
+
+.MenuCenter {
+    margin: auto;
+}
+
+.MenuRight {
+    display: flex;
+    flex-direction: row;
+    margin-left: -190px;
+    margin-right: 160px;
+}

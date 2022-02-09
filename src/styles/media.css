@@ -1,0 +1,33 @@
+
+@media (max-width: 812.98px) {
+    .contentBackground {
+        padding-top: 140px;
+        margin-left: 66px;
+    }
+}
+
+@media ( max-width: 575.98px) {
+    .backgroundBuilding {
+        height: unset;
+        background-size: cover;
+    }
+
+    .contentBackground {
+        padding-top: 35px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .MenuLanding {
+        flex-direction: column;
+    }
+
+    .SpaceIcons {
+        margin-top: 15px;
+    }
+
+    .titleBuilding {
+        font-size: 3rem;
+    }
+}
