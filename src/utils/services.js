@@ -22,7 +22,7 @@ const getAcessToken = async () => {
     let responseToken = await fetch(`${process.env.REACT_APP_URL_DOCSTONE}/token`, options1);
     responseToken = await responseToken.json();
     const token = responseToken.tokenAccess;
-    console.log(token);
+    //console.log(token);
     return token;
 }
 
