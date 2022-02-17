@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react';
-import { ButtonGroup, ToggleButton } from "react-bootstrap";
+import { ButtonGroup, ToggleButton, Col } from "react-bootstrap";
 import Register from '../../views/Register';
 import Search from '../../views/Search';
 
 const radios = [
-    { name: 'Registrar Notícia', value: '1' },
-    { name: 'Buscar Notícia', value: '2' }
+    { name: 'Registrar Imagem', value: '1' },
+    { name: 'Buscar Imagem', value: '2' }
   ];
 
   export default function ContentBuilding() {
@@ -14,8 +14,8 @@ const radios = [
     const [radioValue, setRadioValue] = useState('1');
 
     return (
-    <div className="ContentLandBuilding">
-        <ButtonGroup className="mb-2" style={{marginLeft:'41%', paddingTop: '50px', border: 100}}>
+    <Col align="center" className="ContentLandBuilding">
+        <ButtonGroup className="mb-2" style={{paddingTop: '50px', border: 100}}>
                 {radios.map((radio, idx) => (
                 <ToggleButton
                 key={idx}
@@ -42,6 +42,6 @@ const radios = [
                     )}
                 </div>
             </div>
-    </div>    
+    </Col>    
     )
   }

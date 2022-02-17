@@ -6,7 +6,7 @@ import { Switch, Route, BrowserRouter as Router  } from 'react-router-dom'
 import LandingBuilding from '../../views/LandingBuilding'
 
 const Content = props => (
-    <main>
+    <main className="ubuntu-medium">
             <Router>
                 <Switch>
                     <Route exact path="/">

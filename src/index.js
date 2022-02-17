@@ -6,7 +6,7 @@ import Content from './components/layout/Content';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Content />
+      <Content/>
   </React.StrictMode>,
   document.getElementById('root')
 );
