@@ -15,6 +15,9 @@ export default function Register() {
 
   const onChange = (e) => {
     var file = e.target.files[0];
+    if (file === undefined) {
+      return;
+    }
     setFileName(file.name);
     services.getBase64(file)
       .then((data) => setFileValue(data));
